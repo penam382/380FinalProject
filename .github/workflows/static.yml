@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://github.com/penam382/380FinalProject/edit/main/heat_map.html }}
+      url: ${{ main/heat_map.html }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
